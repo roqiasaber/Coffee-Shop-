@@ -158,5 +158,16 @@ footer{
     font-size: 18px;
 }
 
+@media (max-width: 768px) {
 
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
 
+    .hero-image img {
+        width: 220px;
+        height: 220px;
+    }
+
+}
